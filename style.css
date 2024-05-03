@@ -1,0 +1,103 @@
+html,
+body,
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Police de base du document */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Liens */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* En-têtes */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2.5em; /* 40px */
+    color: red;
+}
+
+h2 {
+    font-size: 2em; /* 32px */
+}
+
+h3 {
+    font-size: 1.75em; /* 28px */
+}
+
+h4 {
+    font-size: 1.5em; /* 24px */
+}
+
+h5 {
+    font-size: 1.25em; /* 20px */
+}
+
+h6 {
+    font-size: 1em; /* 16px */
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Conteneurs */
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Utilitaires */
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
